@@ -1,4 +1,7 @@
 module WeatherParser
+
+  # Keeps information relevant to a
+  # specific day max and min temperatures
   class Day
     attr_accessor :day_of_month, :max_temp, :min_temp
 

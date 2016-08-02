@@ -1,5 +1,7 @@
-
 module WeatherParser
+
+  # Common statistics to perform on a range
+  # of days
   class WeatherStats
     def initialize(days)
       @days = days

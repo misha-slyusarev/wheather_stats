@@ -1,4 +1,7 @@
 module WeatherParser
+
+  # Parses original weather table and extracts
+  # days related temperature data
   class Parser
     def process(file_name)
       File.readlines(file_name).drop(2).map do |line|
